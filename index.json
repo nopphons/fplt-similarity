@@ -45,7 +45,7 @@
         "id": 19769,
         "Name": "Doctor Noon, Clinic FPL",
         "PlayerName": "Jatuphon Suwanpinij",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
     },
 
     {
@@ -58,67 +58,73 @@
         "id": 23187,
         "Name": "Ad Nikki, Formula Football",
         "PlayerName": "Nitikorn Kongkapan",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
     },
     {
         "id": 621613,
         "Name": "Ad Zlatar, Formula Football",
         "PlayerName": "Tar Taryn",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
     },
     {
         "id": 1563,
         "Name": "Ad Saran, Data FPL",
         "PlayerName": "Saran DataFPL",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
+    },
+    {
+        "id": 1184,
+        "Name": "FPL GuyW",
+        "PlayerName": "Guy Wongthongsri",
+        "Description": ""
     },
     {
         "id": 3724,
         "Name": "Ad Mark, Data FPL",
         "PlayerName": "MARK DATAFPL",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
     },
     {
         "id": 25470,
         "Name": "Ad Boss, Data FPL",
         "PlayerName": "sethawuth intra",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
     },
     {
         "id": 17043,
         "Name": "Ad Kong, Data FPL",
         "PlayerName": "Pakaphon Hongmeesiengsri",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
     },
     {
         "id": 17706,
         "Name": "Olin FPL Thai Bros ",
         "PlayerName": "Surakit Buranasin",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
     },
     {
         "id": 524813,
         "Name": "Ad Sanuk Di (Sanuk Di Channel)",
         "PlayerName": "SANUKDI sanukdi",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": " "
     },
     {
         "id": 10474,
         "Name": "Ajarn Dai (FPL Dai)",
         "PlayerName": "Paradai Phanpanich",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": " "
     },
     {
         "id": 3544498,
         "Name": "Miss Cream FPL Thai Bros",
         "PlayerName": "Cream Charoenratchadej",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
     },
     {
         "id": 540418,
         "Name": "Nut FPL Thai Bros",
         "PlayerName": "Nut Pierrecal",
-        "Description": "1st Fantasy World Cup Thailand "
+        "Description": ""
     }
 ]
 
