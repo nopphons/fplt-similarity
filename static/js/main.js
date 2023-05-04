@@ -326,6 +326,7 @@ function fetch_team_picks_old() {
         return
     }
 
+
     app.team_id = parseInt(tid)
     app.team_data = {}
     let cache = {};
