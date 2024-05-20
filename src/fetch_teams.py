@@ -16,6 +16,12 @@ def get_next_gw():
         if event['is_next']:
             next_gw = event['id']
             break
+    else:
+        next_gw = 39
+
+    ng = {'next_gw': next_gw}
+    with open('../data/info.json', 'w') as f:
+        json.dump(ng, f, indent=4)
     return next_gw
 
 
