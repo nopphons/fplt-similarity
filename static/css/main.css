@@ -50,7 +50,10 @@ body {
 
 #gradient_bg {
     transform-origin: top;
-    background: linear-gradient(135deg, rgba(150,60,254,1) 0%, rgba(4,240,254,1) 100%);
+    /* background: linear-gradient(45deg, white, blue); */
+    /* background: linear-gradient(135deg, #963cfe 10%, #04f0fe 20%); */
+    background: linear-gradient(135deg, #963cfe 0%, #04f0fe 100%);
+    /* background: linear-gradient(135deg, rgba(150,60,254,1) 0%, rgba(4,240,254,1) 100%); */
     /* background-color: #9267ff; */
 }
 
@@ -84,12 +87,12 @@ body {
 #signature div {
     text-align: center;
     background-color: #37003c;
-    height: 15px;
+    height: 38px;
     padding: 10px 5px 10px 5px;
     /* padding-right: px; */
     color: wheat;
-    line-height: 0px;
-    font-family: 'PremierSans-Regular';
+    line-height: 68%;
+    /* font-family: 'PremierSans-Regular'; */
     position: relative;
     bottom: 0px;
     z-index: 2;
@@ -250,3 +253,34 @@ body {
     color: white;
 }
 
+#tool-version {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #01fb82;
+    text-shadow: 0 0 1px black;
+}
+
+.detail-body {
+    background-color: #2e2e2e;
+}
+
+.accordion-button {
+    color: white;
+    background-color: darkcyan;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: lightcyan;
+}
+
+.text-v-small {
+    font-size: small;
+}
+
+@media screen and (max-width: 650px) {
+    .text-v-small {
+        font-size: xx-small;
+    }
+}

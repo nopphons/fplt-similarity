@@ -33,19 +33,16 @@ def download_picks():
     print(f"Next GW is {next_gw}")
 
     # Get Content Creator League Team Ids
-    # with open("../data/list/cc_league.json", encoding="utf-8") as f:
-    #     raw_data = json.load(f)
-    # teams = [{
-    #     'id': e['EntryId'],
-    #     'Name': e['Name'],
-    #     'PlayerName': e['PlayerName'],
-    #     'Description': e['Description'],
-    #     } for e in raw_data['TeamDatas']]
-    # with open('../index.json', 'w', encoding='utf-8') as f:
-    #     json.dump(teams, f, indent=4)
-
-    with open('../index.json', encoding='utf-8') as f:
-        teams = json.load(f)
+    with open("../data/list/cc_league.json", encoding="utf-8") as f:
+        raw_data = json.load(f)
+    teams = [{
+        'id': e['EntryId'],
+        'Name': e['Name'],
+        'PlayerName': e['PlayerName'],
+        'Description': e['Description'],
+        } for e in raw_data['TeamDatas']]
+    with open('../index.json', 'w', encoding='utf-8') as f:
+        json.dump(teams, f, indent=4)
 
     # Iterate over Creators and Gameweeks and cache their picks
     for cc in teams:
@@ -98,7 +95,7 @@ def combine_all():
         all_entries.append(entry)
 
     with open('../data/combined.json', 'w') as f:
-        json.dump(all_entries, f)
+        json.dump(all_entries, f, indent=4)
     
 
 
